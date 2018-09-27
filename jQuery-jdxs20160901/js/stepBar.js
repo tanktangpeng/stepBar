@@ -143,12 +143,12 @@ var stepBar = {
             hindClass;
 
         if(this.triggerStep < this.curStep){
-            stepSequence_size.padding = "6px 10px";
+            stepSequence_size.padding = "6px 10px";//可以修改
             preClass = "judge-stepSequence-pre";
             hindClass = "judge-stepSequence-hind";
             easing = this.stepEasingForward;
         } else {
-            stepSequence_size.padding = "8px 12px";
+            stepSequence_size.padding = "8px 12px";//可以修改
             preClass = "judge-stepSequence-hind";
             hindClass = "judge-stepSequence-pre";
         }
